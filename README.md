@@ -10,7 +10,7 @@ Ian Smith,
 Greyson Schenck,
 Harvey Wheeler,
 Joseph Meagher,
-Leya
+Leya Flenoy
 # Additional Help
 Olive,
 Jared,
