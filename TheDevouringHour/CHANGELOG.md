@@ -1,3 +1,37 @@
+### Harvey Wheeler - 6/12
+
+#### 
+
+##### \- Summary -
+
+Added global variables for stage, phase, and subphase.
+
+
+
+##### \- Changes Made -
+
+* Added global variables for stage, phase, and subphase.
+* Created functions for updating stage, phase, and subphase variables.
+* Created function for triggering progression events based on game state.
+* Phone now rings after lights are turned on (state 1.1.2 is triggered).
+* State 1.1.3 triggered when first phone call is answered. Following event to be added soon.
+
+
+
+##### \- Bugs -
+
+* None
+
+
+
+##### \- Additional Notes -
+
+* Next, I plan on locking the camera to the phone when calls are in progress. Looking at code for keypad for reference.
+* After first phone call, hoping to enable the generator.
+* Possibly implement dialogue system into phone?
+
+
+
 ### Harvey Wheeler - 5/9
 
 #### 
