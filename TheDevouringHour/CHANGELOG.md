@@ -1,3 +1,36 @@
+### Harvey Wheeler - 7/3
+
+#### 
+
+##### \- Summary -
+
+Added a camera which locks on to the phone while a call is occurring.
+
+
+
+##### \- Changes Made -
+
+* Added a camera which locks on to the phone while a call is occurring.
+* Locks player controls while camera is locked
+* Will automatically revert camera when call finishes
+* Can also be done early by interacting again
+
+
+
+##### \- Bugs -
+
+* None
+
+
+
+##### \- Additional Notes -
+
+* Next, I plan on locking the camera to the phone when calls are in progress. Looking at code for keypad for reference.
+* After first phone call, hoping to enable the generator.
+* Possibly implement dialogue system into phone?
+
+
+
 ### Harvey Wheeler - 6/12
 
 #### 
