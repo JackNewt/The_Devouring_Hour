@@ -1,3 +1,40 @@
+### Harvey Wheeler - 7/11
+
+#### 
+
+##### \- Summary -
+
+Implemented dialogue system into the phone.
+
+
+
+##### \- Changes Made -
+
+* Dialogue now begins when answering a phone call.
+* Edited Dialogue\_data to include a new trigger: "ChangeGameState"
+
+  * Currently only set up to change subphase, more in near future
+* Now, subphase 3 will not begin unless the correct dialogue options are chosen
+* More dialogue can be easily implemented with whatever game state triggers we want
+
+
+
+
+
+##### \- Bugs -
+
+* Camera control not returned to player when dialog is closed, must press E again. Unsure why.
+
+
+
+##### \- Additional Notes -
+
+* Still waiting on the go-ahead with the generator. Will ask Joseph
+
+
+
+
+
 ### Harvey Wheeler - 7/3
 
 #### 
