@@ -1,3 +1,107 @@
+### Harvey Wheeler - 7/11
+
+#### 
+
+##### \- Summary -
+
+Implemented dialogue system into the phone.
+
+
+
+##### \- Changes Made -
+
+* Dialogue now begins when answering a phone call.
+* Edited Dialogue\_data to include a new trigger: "ChangeGameState"
+
+  * Currently only set up to change subphase, more in near future
+* Now, subphase 3 will not begin unless the correct dialogue options are chosen
+* More dialogue can be easily implemented with whatever game state triggers we want
+
+
+
+
+
+##### \- Bugs -
+
+* Camera control not returned to player when dialog is closed, must press E again. Unsure why.
+
+
+
+##### \- Additional Notes -
+
+* Still waiting on the go-ahead with the generator. Will ask Joseph
+
+
+
+
+
+### Harvey Wheeler - 7/3
+
+#### 
+
+##### \- Summary -
+
+Added a camera which locks on to the phone while a call is occurring.
+
+
+
+##### \- Changes Made -
+
+* Added a camera which locks on to the phone while a call is occurring.
+* Locks player controls while camera is locked
+* Will automatically revert camera when call finishes
+* Can also be done early by interacting again
+
+
+
+##### \- Bugs -
+
+* None
+
+
+
+##### \- Additional Notes -
+
+* Next, I plan on locking the camera to the phone when calls are in progress. Looking at code for keypad for reference.
+* After first phone call, hoping to enable the generator.
+* Possibly implement dialogue system into phone?
+
+
+
+### Harvey Wheeler - 6/12
+
+#### 
+
+##### \- Summary -
+
+Added global variables for stage, phase, and subphase.
+
+
+
+##### \- Changes Made -
+
+* Added global variables for stage, phase, and subphase.
+* Created functions for updating stage, phase, and subphase variables.
+* Created function for triggering progression events based on game state.
+* Phone now rings after lights are turned on (state 1.1.2 is triggered).
+* State 1.1.3 triggered when first phone call is answered. Following event to be added soon.
+
+
+
+##### \- Bugs -
+
+* None
+
+
+
+##### \- Additional Notes -
+
+* Next, I plan on locking the camera to the phone when calls are in progress. Looking at code for keypad for reference.
+* After first phone call, hoping to enable the generator.
+* Possibly implement dialogue system into phone?
+
+
+
 ### Harvey Wheeler - 5/9
 
 #### 
