@@ -4,6 +4,36 @@ Harvey Wheeler - 8/26
 
 #### \- Summary -
 
+Fixed tutorial camera switching.
+
+
+
+##### \- Changes Made -
+
+* Added unique tag to each tutorial camera. Instead of pulling all with the same tag and sorting through an array, each subphase just pulls each individual tag.
+* Camera snaps instantly instead of blending.
+
+
+
+
+
+##### \- Bugs -
+
+* N/A
+
+
+
+##### \- Additional Notes -
+
+* Will continue on the tutorial.
+
+
+Harvey Wheeler - 8/26
+
+---
+
+#### \- Summary -
+
 Implemented tutorial camera switching, up through patient.
 
 
