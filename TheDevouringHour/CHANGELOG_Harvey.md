@@ -1,3 +1,30 @@
+Harvey Wheeler - 9/1
+
+---
+
+#### \- Summary -
+
+Added more tutorial cameras.
+
+
+
+##### \- Changes Made -
+
+* Added cameras for generator, generator meter, boiler, and computer.
+* All cameras and dialogue added to tutorial sequence.
+
+
+##### \- Bugs -
+
+* Need to fix tutorial ending. Unable to close phone dialog.
+
+
+##### \- Additional Notes -
+
+* Will continue on the tutorial.
+* Will fix debug menu after.
+
+
 Harvey Wheeler - 8/26
 
 ---
