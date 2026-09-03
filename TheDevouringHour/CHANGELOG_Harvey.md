@@ -1,3 +1,30 @@
+Harvey Wheeler - 9/3
+
+---
+
+#### \- Summary -
+
+Added more tutorial branches, but not functioning properly.
+
+
+
+##### \- Changes Made -
+
+* Added branches corresponding to info recaps ("Could you repeat something?")
+* Dialogue is empty for these branches, but they loop back to the dialog before.
+
+
+##### \- Bugs -
+
+* For some reason, the option to skip repeating info ("I understand") does not show up, nor any info repeat choices besides the Analyzer. Loops between the two, cannot exit the dialog. Help
+
+
+##### \- Additional Notes -
+
+* I really wanna get this part done ASAP so I can actually start making the game part.
+* Will fix debug menu after.
+
+
 Harvey Wheeler - 9/1
 
 ---
