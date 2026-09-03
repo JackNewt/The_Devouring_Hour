@@ -1,3 +1,29 @@
+Harvey Wheeler - 9/4
+
+---
+
+#### \- Summary -
+
+Added more tutorial branches, almost functioning properly.
+
+
+
+##### \- Changes Made -
+
+* Added branches corresponding to info recaps ("Could you repeat something?")
+* Dialogue is empty for these branches, but they loop back to the dialog before.
+
+
+##### \- Bugs -
+
+* Figured out why buttons were not showing up. Just need to add more buttons than three.
+
+
+##### \- Additional Notes -
+
+* I really wanna get this part done ASAP so I can actually start making the game part.
+* Will work on dispenser afterwards.
+
 Harvey Wheeler - 9/3
 
 ---
