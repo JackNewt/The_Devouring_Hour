@@ -1,3 +1,31 @@
+Harvey Wheeler - 9/10
+
+---
+
+#### \- Summary -
+
+Disabled player movement until lights are on, moved a camera, added tutorial recaps.
+
+
+
+##### \- Changes Made -
+
+* Player movement is disabled until light switch is flipped
+** Player now starts right in front of the light switch
+** The debug menu (9) can enable lights still. Useful for testing in other locations
+* Moved Dispenser_lever cam to focus on the lever
+* Added tutorial recap dialogue.
+
+
+##### \- Bugs -
+
+* 
+
+
+##### \- Additional Notes -
+
+* Next up is the boiler. Should really focus on that instead of microtweaking the tutorial.
+
 Harvey Wheeler - 9/8
 
 ---
