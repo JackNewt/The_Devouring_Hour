@@ -1,4 +1,53 @@
 Date:
+2026-09-11
+
+Summary:
+Reworked and condensed the player inventory system, adding support for interactive items and collectible notes, reusable inventory slot widgets, contextual inventory actions, UI-focused input handling, and additional debugging controls.
+
+Changes Made:
+
+- Reworked the inventory system to use dedicated inventory data for both items and notes.
+- Added support for collectible notes alongside standard inventory items.
+- Added unique `Name` IDs to inventory entries for more reliable lookup, removal, and future gameplay checks.
+- Added inventory functions for:
+  - Adding items.
+  - Removing items by ID.
+  - Adding notes.
+  - Removing notes by ID.
+- Added a reusable `WBP_InventorySlot` widget capable of representing both items and notes.
+- Added slot initialization logic for:
+  - Standard inventory items.
+  - Collectible notes.
+- Added item/note type tracking through an inventory slot type enum.
+- Added contextual action menus to inventory slots.
+- Added contextual item actions for:
+  - Equip.
+  - Unequip.
+  - Remove.
+- Added contextual note actions for:
+  - Read.
+  - Remove.
+- Added logic to ensure only one inventory slot action menu can be open at a time.
+- Added logic to automatically close the previous slot menu when another inventory entry is selected.
+- Added logic to close inventory action menus after performing an action or removing an entry.
+- Added background-click handling so clicking empty inventory space dismisses the currently open action menu.
+- Added a centralized `RefreshInventory` system intended to rebuild the item and note UI from the underlying inventory arrays instead of manually tracking individual UI children.
+- Began restructuring inventory responsibilities so `BP_InventoryComponent` manages inventory data while `WBP_InGameMenu` manages inventory presentation.
+- Added a debug menu button for manually restoring/re-enabling player movement during development. (Especially useful now after the game starts and the movement is locked due to the beginning sequence being added)
+
+Bugs:
+- Tab could be intercepted by UMG's keyboard-navigation behavior after interacting with inventory buttons. Addressed by preventing mouse-driven inventory buttons from taking keyboard focus. This means keyboard cannot be used with the inventory. If we want that, we might want to change the keybind to open it from tab to something else
+
+Additional Notes:
+- The inventory system is still under active development and does not yet represent the final item/equipment implementation.
+- Items and notes currently remain separate data types but share the reusable `WBP_InventorySlot` presentation layer.
+- The contextual inventory menu is designed to support additional actions later without requiring separate UI implementations for every inventory type.
+- The current inventory refresh approach is intended to make the underlying inventory arrays the source of truth, allowing the UI to be rebuilt whenever inventory data changes.
+- Equipment functionality is being structured so equipped items can eventually be tracked independently of inventory storage.
+- The new debug movement control is intended for development/testing and may be removed or replaced once player input and UI transitions are fully stable.
+
+
+Date:
 2026-08-29
 
 Summary:
