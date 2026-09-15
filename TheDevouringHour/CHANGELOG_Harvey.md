@@ -1,3 +1,28 @@
+Harvey Wheeler - 9/15
+
+---
+
+#### \- Summary -
+
+Began work on boiler and bursting pipes.
+
+
+
+##### \- Changes Made -
+
+* Replaced Boiler static mesh with BP_Boiler. Counts up to 30 on a timer, then breaks and bursts all pipes.
+* Added three BP_PipeBurst, two replacing ceiling pipes and one on the wall. When Boiler breaks, they emit blue Niagara particles.
+
+
+##### \- Bugs -
+
+* Textures on boiler and pipes not there. Probably just forgot to add them, now that I think about it.
+
+
+##### \- Additional Notes -
+
+* Next, I need to work with Jared on the duct tape item to fix the pipes, plus maybe add a failstate? Or add a game in the first place?
+
 Harvey Wheeler - 9/10
 
 ---
