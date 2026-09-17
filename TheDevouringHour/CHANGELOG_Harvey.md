@@ -1,3 +1,29 @@
+Harvey Wheeler - 9/16
+
+---
+
+#### \- Summary -
+
+Began work on duct tape item, Added IA_ToggleInventory
+
+
+
+##### \- Changes Made -
+
+* Created IA_ToggleInventory and connected it to the IMC (key is "I")
+	* Replaced a placeholder node in the character BP with the new action. Inventory opens and closes as intended
+* Created BP_DuctTape using the pickupable item base, Silver disc located on the counter on the far wall
+
+
+##### \- Bugs -
+
+* At a standstill with the item. Will need to ask Jared about setting an equipped item
+
+
+##### \- Additional Notes -
+
+* I wish I had more time to work on this but I need to make an entire Twine game right now. I should be available to work tomorrow evening.
+
 Harvey Wheeler - 9/15
 
 ---
