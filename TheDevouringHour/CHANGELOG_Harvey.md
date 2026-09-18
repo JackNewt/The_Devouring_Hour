@@ -4,6 +4,33 @@ Harvey Wheeler - 9/16
 
 #### \- Summary -
 
+Finished Boiler/Pipes, Added item equipping
+
+
+
+##### \- Changes Made -
+
+* Character can now equip item from inventory (tab, click item, equip)
+	* Equipped item saved in character BP
+	* Added static mesh to character. On item equipped, item mesh shown on camera
+* Pipes now fixable using duct tape item
+	* Boiler resets when all pipes are fixed
+
+##### \- Bugs -
+
+* While equipped item mesh is shown on camera, texture is not. Will need to add texture parameter to the interactable item base (I think).
+
+
+##### \- Additional Notes -
+
+* Have a good TinkerFest!
+
+Harvey Wheeler - 9/16
+
+---
+
+#### \- Summary -
+
 Began work on duct tape item, Added IA_ToggleInventory
 
 
