@@ -1,3 +1,27 @@
+Harvey Wheeler - 9/23
+
+---
+
+#### \- Summary -
+
+Added player light, fixed pipe interact prompt
+
+
+##### \- Changes Made -
+
+* Added weak point light to player capsule.
+* Pipe no longer shows interact prompt when not holding tape.
+
+##### \- Bugs -
+
+* For some reason, my programming branch was not merged with main.
+
+
+##### \- Additional Notes -
+
+* For some reason, my programming branch was not merged with main. Will attempt to merge.
+
+
 Harvey Wheeler - 9/16
 
 ---
@@ -5,7 +29,6 @@ Harvey Wheeler - 9/16
 #### \- Summary -
 
 Finished Boiler/Pipes, Added item equipping
-
 
 
 ##### \- Changes Made -
