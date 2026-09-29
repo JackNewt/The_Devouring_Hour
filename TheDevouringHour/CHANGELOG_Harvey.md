@@ -1,3 +1,27 @@
+Harvey Wheeler - 9/28
+
+---
+
+#### \- Summary -
+
+Began tutorial rework; analyzer/dispenser implemented
+
+
+##### \- Changes Made -
+
+* Adjusted dialog, subphases, cameras for tutorial rework up through the pill funnel.
+* involved changes to the following blueprints: Analyzer, Dispenser, Phone, GameMode, DialogBox Widget
+
+##### \- Bugs -
+
+* Works well enough for now.
+
+
+##### \- Additional Notes -
+
+* Will take some work to finish the whole tutorial by Thursday. May not be ready by Tuesday at midnight but honestly why is the build even due then anyways? I really need Tues/Wed night to finish this. Oh my god
+
+
 Harvey Wheeler - 9/23
 
 ---
