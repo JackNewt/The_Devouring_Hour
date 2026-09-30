@@ -1,3 +1,51 @@
+Harvey Wheeler - 9/28
+
+---
+
+#### \- Summary -
+
+Began tutorial rework; analyzer/dispenser implemented
+
+
+##### \- Changes Made -
+
+* Adjusted dialog, subphases, cameras for tutorial rework up through the pill funnel.
+* involved changes to the following blueprints: Analyzer, Dispenser, Phone, GameMode, DialogBox Widget
+
+##### \- Bugs -
+
+* Works well enough for now.
+
+
+##### \- Additional Notes -
+
+* Will take some work to finish the whole tutorial by Thursday. May not be ready by Tuesday at midnight but honestly why is the build even due then anyways? I really need Tues/Wed night to finish this. Oh my god
+
+
+Harvey Wheeler - 9/23
+
+---
+
+#### \- Summary -
+
+Added player light, fixed pipe interact prompt
+
+
+##### \- Changes Made -
+
+* Added weak point light to player capsule.
+* Pipe no longer shows interact prompt when not holding tape.
+
+##### \- Bugs -
+
+* For some reason, my programming branch was not merged with main.
+
+
+##### \- Additional Notes -
+
+* For some reason, my programming branch was not merged with main. Will attempt to merge.
+
+
 Harvey Wheeler - 9/16
 
 ---
@@ -5,7 +53,6 @@ Harvey Wheeler - 9/16
 #### \- Summary -
 
 Finished Boiler/Pipes, Added item equipping
-
 
 
 ##### \- Changes Made -
