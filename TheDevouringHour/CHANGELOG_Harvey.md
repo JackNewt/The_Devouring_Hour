@@ -1,3 +1,26 @@
+Harvey Wheeler - 10/6
+
+---
+
+#### \- Summary -
+
+Debug menu fixed
+
+
+##### \- Changes Made -
+
+* Debug menu (9) now functions. Buttons can be used to trigger machine events (pill ticket, breakdowns) and start the main game state
+* Button disappears until menu is closed and opened again. It is ill advised to trigger the same event multiple times at once or trigger conflicting events. Test at your own risk.
+
+##### \- Bugs -
+
+* Printing multiple pill tickets at once causes them to take up the same inventory slot, obscuring the correct ticket while still filling the inventory.
+
+##### \- Additional Notes -
+
+* N/A
+
+
 Harvey Wheeler - 9/28
 
 ---
