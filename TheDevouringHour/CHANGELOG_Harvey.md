@@ -1,3 +1,27 @@
+Harvey Wheeler - 10/13
+
+---
+
+#### \- Summary -
+
+Fixed Debug Menu (again)
+
+
+##### \- Changes Made -
+
+* Due to a merge issue, work on the debug menu was overwritten. It is now reimplemented.
+
+##### \- Bugs -
+
+* Works well enough for now.
+
+
+##### \- Additional Notes -
+
+* For some reason, Programming_Harvey claimed to be up to date with main when it was not. After fixing everything in a cherry-picked branch and then losing all of it to GitHub bullshit, I wiped my branch and pulled a new copy from Main.
+* I also updated Programming to match the current state of main. Please tell me that is fine. GitHub said it was like 25 commits behind I figured no one was using it.
+
+
 Harvey Wheeler - 9/28
 
 ---
