@@ -1,3 +1,30 @@
+Harvey Wheeler - 10/26
+
+---
+
+#### \- Summary -
+
+Added spatial audio plugin, random scare noise player
+
+
+##### \- Changes Made -
+
+* Enabled a plugin for basic spatial audio. Works pretty well.
+* Created a function in BP_FirstPersonGameMode for playing random scare noises periodically.
+** Can either play in 2D or from a particular component, decided by a switch tied to called sound
+
+##### \- Bugs -
+
+* Interact prompt does not change if player opens inventory and equips tape while looking at the pipe the whole time. I'd call this small enough to ignore entirely.
+
+
+##### \- Additional Notes -
+
+* Live interact prompt updating is kind of unintuitive. Might be replaced in the future.
+
+---
+
+
 Harvey Wheeler - 10/15
 
 ---
