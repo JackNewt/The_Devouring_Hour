@@ -1,3 +1,77 @@
+Harvey Wheeler - 10/26
+
+---
+
+#### \- Summary -
+
+Added spatial audio plugin, random scare noise player
+
+
+##### \- Changes Made -
+
+* Enabled a plugin for basic spatial audio. Works pretty well.
+* Created a function in BP_FirstPersonGameMode for playing random scare noises periodically.
+** Can either play in 2D or from a particular component, decided by a switch tied to called sound
+
+##### \- Bugs -
+
+* Interact prompt does not change if player opens inventory and equips tape while looking at the pipe the whole time. I'd call this small enough to ignore entirely.
+
+
+##### \- Additional Notes -
+
+* Live interact prompt updating is kind of unintuitive. Might be replaced in the future.
+
+---
+
+
+Harvey Wheeler - 10/15
+
+---
+
+#### \- Summary -
+
+Implemented pipe taping adjustments
+
+
+##### \- Changes Made -
+
+* Taping pipes now requires the player to hold the interact key for 2 seconds before being fully fixed.
+* Interact prompt updates live based on whether the player is looking at the pipe, holding tape, or actively taping.
+
+##### \- Bugs -
+
+* Interact prompt does not change if player opens inventory and equips tape while looking at the pipe the whole time. I'd call this small enough to ignore entirely.
+
+
+##### \- Additional Notes -
+
+* Live interact prompt updating is kind of unintuitive. Might be replaced in the future.
+
+Harvey Wheeler - 10/13
+
+---
+
+#### \- Summary -
+
+Fixed Debug Menu (again)
+
+
+##### \- Changes Made -
+
+* Due to a merge issue, work on the debug menu was overwritten. It is now reimplemented.
+
+##### \- Bugs -
+
+* Works well enough for now.
+
+
+##### \- Additional Notes -
+
+* For some reason, Programming_Harvey claimed to be up to date with main when it was not. After fixing everything in a cherry-picked branch and then losing all of it to GitHub bullshit, I wiped my branch and pulled a new copy from Main.
+* I also updated Programming to match the current state of main. Please tell me that is fine. GitHub said it was like 25 commits behind I figured no one was using it.
+
+
 Harvey Wheeler - 9/28
 
 ---
