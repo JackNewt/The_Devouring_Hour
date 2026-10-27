@@ -1,3 +1,26 @@
+Harvey Wheeler - 10/15
+
+---
+
+#### \- Summary -
+
+Implemented pipe taping adjustments
+
+
+##### \- Changes Made -
+
+* Taping pipes now requires the player to hold the interact key for 2 seconds before being fully fixed.
+* Interact prompt updates live based on whether the player is looking at the pipe, holding tape, or actively taping.
+
+##### \- Bugs -
+
+* Interact prompt does not change if player opens inventory and equips tape while looking at the pipe the whole time. I'd call this small enough to ignore entirely.
+
+
+##### \- Additional Notes -
+
+* Live interact prompt updating is kind of unintuitive. Might be replaced in the future.
+
 Harvey Wheeler - 10/13
 
 ---
