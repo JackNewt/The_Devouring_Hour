@@ -1,3 +1,29 @@
+Harvey Wheeler - 10/27
+
+---
+
+#### \- Summary -
+
+Added scare noises for random noise player
+
+
+##### \- Changes Made -
+
+* Added four sound which play randomly.
+** The footstep sound moves as it's playing using a new actor (BP_MovingAudioComponent)
+
+##### \- Bugs -
+
+* 
+
+
+##### \- Additional Notes -
+
+* The boiler update is gone. Why does this keep happening to me.
+
+---
+
+
 Harvey Wheeler - 10/26
 
 ---
@@ -15,12 +41,12 @@ Added spatial audio plugin, random scare noise player
 
 ##### \- Bugs -
 
-* Interact prompt does not change if player opens inventory and equips tape while looking at the pipe the whole time. I'd call this small enough to ignore entirely.
+* 
 
 
 ##### \- Additional Notes -
 
-* Live interact prompt updating is kind of unintuitive. Might be replaced in the future.
+* 
 
 ---
 
