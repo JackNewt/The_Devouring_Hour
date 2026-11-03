@@ -1,3 +1,28 @@
+Harvey Wheeler - 11/3
+
+---
+
+#### \- Summary -
+
+Updated main menu with custom buttons, logo video
+
+
+##### \- Changes Made -
+
+* The main menu how has a custom panel with custom buttons.
+** The buttons maintain hovering and clicking responsiveness, changing tint for each.
+** The logo video plays on widget construct and loops.
+
+##### \- Bugs -
+
+* 
+
+
+##### \- Additional Notes -
+
+* Do we have the video for the patient tube?
+
+
 Harvey Wheeler - 10/27
 
 ---
