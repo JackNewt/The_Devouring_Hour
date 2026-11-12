@@ -1,3 +1,27 @@
+Harvey Wheeler - 11/12
+
+---
+
+#### \- Summary -
+
+Finished tape respawning, Almost added second menu video
+
+
+##### \- Changes Made -
+
+* Tape now respawns when used up or removed from inventory.
+* Patient video is in the menu.
+
+##### \- Bugs -
+
+* Patient video does not play. May have something to do with multiple videos playing at once?
+
+
+##### \- Additional Notes -
+
+* May need to combine both videos into one
+
+
 Harvey Wheeler - 11/3
 
 ---
