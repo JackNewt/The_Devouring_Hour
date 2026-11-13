@@ -1,3 +1,52 @@
+Harvey Wheeler - 11/12
+
+---
+
+#### \- Summary -
+
+Finished tape respawning, Almost added second menu video
+
+
+##### \- Changes Made -
+
+* Tape now respawns when used up or removed from inventory.
+* Patient video is in the menu.
+
+##### \- Bugs -
+
+* Patient video does not play. May have something to do with multiple videos playing at once?
+
+
+##### \- Additional Notes -
+
+* May need to combine both videos into one
+
+
+Harvey Wheeler - 11/3
+
+---
+
+#### \- Summary -
+
+Updated main menu with custom buttons, logo video
+
+
+##### \- Changes Made -
+
+* The main menu how has a custom panel with custom buttons.
+** The buttons maintain hovering and clicking responsiveness, changing tint for each.
+** The logo video plays on widget construct and loops.
+
+##### \- Bugs -
+
+* 
+
+
+##### \- Additional Notes -
+
+* Do we have the video for the patient tube?
+
+
 Harvey Wheeler - 10/27
 
 ---
