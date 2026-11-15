@@ -1,3 +1,81 @@
+Harvey Wheeler - 11/3
+
+---
+
+#### \- Summary -
+
+Updated main menu with custom buttons, logo video
+
+
+##### \- Changes Made -
+
+* The main menu how has a custom panel with custom buttons.
+** The buttons maintain hovering and clicking responsiveness, changing tint for each.
+** The logo video plays on widget construct and loops.
+
+##### \- Bugs -
+
+* 
+
+
+##### \- Additional Notes -
+
+* Do we have the video for the patient tube?
+
+
+Harvey Wheeler - 10/27
+
+---
+
+#### \- Summary -
+
+Added scare noises for random noise player
+
+
+##### \- Changes Made -
+
+* Added four sound which play randomly.
+** The footstep sound moves as it's playing using a new actor (BP_MovingAudioComponent)
+
+##### \- Bugs -
+
+* 
+
+
+##### \- Additional Notes -
+
+* The boiler update is gone. Why does this keep happening to me.
+
+---
+
+
+Harvey Wheeler - 10/26
+
+---
+
+#### \- Summary -
+
+Added spatial audio plugin, random scare noise player
+
+
+##### \- Changes Made -
+
+* Enabled a plugin for basic spatial audio. Works pretty well.
+* Created a function in BP_FirstPersonGameMode for playing random scare noises periodically.
+** Can either play in 2D or from a particular component, decided by a switch tied to called sound
+
+##### \- Bugs -
+
+* 
+
+
+##### \- Additional Notes -
+
+* 
+
+---
+
+
 Harvey Wheeler - 10/15
 
 ---
